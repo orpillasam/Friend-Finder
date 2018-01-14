@@ -2,39 +2,24 @@
 
 var friendsArray = [
     {
-      name: "Richard",
-      photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      name: "Jean Luc Picard",
+      photo: "https://vignette.wikia.nocookie.net/memoryalpha/images/a/a0/Jean_Luc_Picard_2364.jpg/revision/latest/scale-to-width-down/350?cb=20161120233426&path-prefix=en",
       scores: [1,2,3,4,5,1,2,3,4,5]
     },
     {
-    name: "Caprina",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name: "Will Riker",
+    photo: "http://www.startrek.com/uploads/assets/db_articles/cb7d94c8210f9c52bba45217822c859b35c677f5.jpg",
     scores: [4,3,1,3,5,2,1,4,4,1]
     },
     {
-    name: "Nathan",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name: "Data",
+    photo: "https://vignette.wikia.nocookie.net/memoryalpha/images/4/4f/Data%2C_2366.jpg/revision/latest/scale-to-width-down/180?cb=20130529102644&path-prefix=en",
     scores: [2,3,4,3,5,1,3,6,1,3]
     },
     {
-    name: "Catalina",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    name: "Geordi La Forge",
+    photo: "https://vignette.wikia.nocookie.net/memoryalpha/images/d/d9/Geordi_La_Forge_2368.jpg/revision/latest/scale-to-width-down/180?cb=20120205164003&path-prefix=en",
     scores: [5,5,4,3,2,5,5,1,3,2]
-    },
-    {
-    name: "Susan",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    scores: [4,4,4,4,3,5,3,2,3,1]
-    },
-    {
-    name: "Meeso",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    scores: [1,2,3,1,3,1,3,2,1,1]
-    },
-    {
-    name: "Eugene",
-    photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    scores: [4,5,5,5,5,4,1,1,2,3]
     }
   ];
 
