@@ -18,16 +18,23 @@ module.exports = function(app) {
 
         console.log(newFriend);
         console.log(friendsData);
+
+        //this compares scores of the the user with all the friends in the friends array
+        //first loop is to loop through the friends
         for (var i = 0; i < friendsData.length; i++){
+            //second loop is to compare the scores
             for(var j = 0; j < newFriend.scores.length; j++){
                 var score1 = parseInt(newFriend.scores[j]);
                 var score2 = parseInt(friendsData[i].scores[j]);
                 totalDifferences += Math.abs(score1 -score2);
             }
+            //sets the first friend in the array to be the best match. 
             if ( i === 0){
                 bestScore = totalDifferences;
                 bestMatch = 0;
               }
+
+              //Then compares subsequent friends' best scores to this friend until it finishes the array
               else if(i !== 0 && totalDifferences < bestScore){
                 bestScore = totalDifferences;
                 bestMatch = i;
@@ -35,6 +42,7 @@ module.exports = function(app) {
               totalDifferences = 0;
             }
             
+            //pushes the best match to the database
             friendsData.push(newFriend);
             res.json(friendsData[bestMatch]);
     });
