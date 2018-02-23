@@ -1,7 +1,7 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Find a matching Friend",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,15 @@
     "url": "git+https://github.com/orpillasam/Friend-Finder.git"
   },
   "author": "",
-
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "bugs": {
+    "url": "https://github.com/orpillasam/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/orpillasam/Friend-Finder#readme",
+  "devDependencies": {}
 }
